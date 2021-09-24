@@ -1,0 +1,59 @@
+/* Responsive */
+/* Tablet: 740px <= witdh < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .modal-container{
+        width: 75vw;
+    }
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav>li{
+        display: block;
+    }
+
+    #nav>li:first-child{
+        display: inline-block;
+    }
+
+    #nav li button, #nav li a{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 2px 36px;
+    }
+
+    #nav li:hover .subnav{
+        position: initial;
+        display: inline-block;
+        width: 100%;
+        background-color: #333;
+    }
+
+
+
+}
